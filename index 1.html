@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mente Milionária | Educação Financeira</title>
+<meta name="description" content="Aprenda educação financeira do zero, desenvolva melhores hábitos com seu dinheiro e dê os primeiros passos nos investimentos com a Mente Milionária.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Mente Milionária | Educação Financeira">
+<meta property="og:description" content="Aprenda educação financeira do zero, desenvolva melhores hábitos com seu dinheiro e dê os primeiros passos nos investimentos.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="capa-ebook.jpg">
+<meta property="og:locale" content="pt_BR">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- =========================================================
+     HEADER
+========================================================= -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#inicio" class="header__logo">
+      <!-- LOGO: a imagem logo.jpg já está referenciada abaixo -->
+      <img src="logo.jpg" alt="Mente Milionária" class="header__logo-img">
+      <span class="header__logo-text">Mente Milionária</span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="#inicio" class="nav__link">Início</a>
+      <a href="#sobre" class="nav__link">Sobre</a>
+      <a href="#ebook" class="nav__link">E-book</a>
+      <a href="#conteudo" class="nav__link">Conteúdo</a>
+      <a href="#faq" class="nav__link">FAQ</a>
+      <a href="#" class="btn btn--gold btn--small js-checkout">Quero começar</a>
+    </nav>
+
+    <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- menu mobile -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#inicio" class="mobile-menu__link">Início</a>
+  <a href="#sobre" class="mobile-menu__link">Sobre</a>
+  <a href="#ebook" class="mobile-menu__link">E-book</a>
+  <a href="#conteudo" class="mobile-menu__link">Conteúdo</a>
+  <a href="#faq" class="mobile-menu__link">FAQ</a>
+  <a href="#" class="btn btn--gold mobile-menu__cta js-checkout">Quero começar</a>
+</div>
+
+<main>
+
+<!-- =========================================================
+     1. HERO
+========================================================= -->
+<section class="hero" id="inicio">
+  <div class="hero__bg-pattern" aria-hidden="true"></div>
+  <div class="container hero__inner">
+
+    <div class="hero__content reveal">
+      <p class="hero__eyebrow">E-book de educação financeira</p>
+      <h1 class="hero__title">O que a escola nunca ensinou sobre riqueza.</h1>
+      <p class="hero__subtitle">
+        Aprenda a cuidar do seu dinheiro, desenvolver bons hábitos financeiros e dar
+        os primeiros passos nos investimentos — mesmo começando do zero.
+      </p>
+
+      <div class="hero__actions">
+        <a href="#" class="btn btn--primary js-checkout">Quero aprender</a>
+        <a href="#ebook" class="btn btn--outline">Conhecer o e-book</a>
+      </div>
+
+      <p class="hero__note">Conhecimento financeiro para quem quer começar de verdade.</p>
+    </div>
+
+    <div class="hero__visual reveal reveal--delay">
+      <div class="book-mockup">
+        <div class="book-mockup__glow" aria-hidden="true"></div>
+        <!-- CAPA DO E-BOOK: a imagem capa-ebook.jpg já está referenciada abaixo -->
+        <img src="capa-ebook.jpg" alt="Capa do e-book Mente Milionária" class="book-mockup__img">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- =========================================================
+     2. SEÇÃO DE PROBLEMA
+========================================================= -->
+<section class="problema">
+  <div class="container">
+    <h2 class="section-title reveal">
+      Você trabalha, recebe seu dinheiro... mas sente que nunca sabe para onde ele vai?
+    </h2>
+
+    <div class="problema__grid">
+      <div class="problema__card reveal">
+        <div class="problema__icon">💸</div>
+        <p>Não sabe controlar os gastos</p>
+      </div>
+      <div class="problema__card reveal">
+        <div class="problema__icon">🪙</div>
+        <p>Tem dificuldade para economizar</p>
+      </div>
+      <div class="problema__card reveal">
+        <div class="problema__icon">📈</div>
+        <p>Não sabe por onde começar a investir</p>
+      </div>
+      <div class="problema__card reveal">
+        <div class="problema__icon">⚠️</div>
+        <p>Tem medo de perder dinheiro</p>
+      </div>
+      <div class="problema__card reveal">
+        <div class="problema__icon">💼</div>
+        <p>Quer aumentar sua renda, mas não sabe como</p>
+      </div>
+    </div>
+
+    <p class="problema__closing reveal">
+      Aprendeu matemática na escola, mas não aprendeu a lidar com dinheiro.
+    </p>
+  </div>
+</section>
+
+<!-- =========================================================
+     3. SOBRE
+========================================================= -->
+<section class="sobre" id="sobre">
+  <div class="container sobre__inner">
+    <div class="sobre__text reveal">
+      <p class="section-eyebrow">Sobre a Mente Milionária</p>
+      <h2 class="section-title section-title--left">Mais do que um e-book. Uma nova forma de pensar sobre dinheiro.</h2>
+      <p class="sobre__paragraph">
+        A Mente Milionária nasceu com um propósito simples: tornar a educação financeira
+        mais acessível para quem está começando.
+      </p>
+      <p class="sobre__paragraph">
+        Acreditamos que falar sobre dinheiro não precisa ser complicado. Você não precisa
+        ser especialista em investimentos ou entender termos difíceis para começar a tomar
+        decisões melhores.
+      </p>
+      <p class="sobre__paragraph">
+        Criamos conteúdos com linguagem simples, prática e direta, para ajudar pessoas
+        comuns a desenvolverem conhecimento e hábitos que podem fazer diferença na sua
+        vida financeira.
+      </p>
+    </div>
+
+    <div class="pilares">
+      <div class="pilar reveal">
+        <span class="pilar__linha"></span>
+        <h3>Conhecimento</h3>
+        <p>Entenda como o dinheiro funciona.</p>
+      </div>
+      <div class="pilar reveal">
+        <span class="pilar__linha"></span>
+        <h3>Hábitos</h3>
+        <p>Aprenda a transformar conhecimento em atitudes.</p>
+      </div>
+      <div class="pilar reveal">
+        <span class="pilar__linha"></span>
+        <h3>Planejamento</h3>
+        <p>Construa um caminho financeiro mais consciente.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     4. SEÇÃO DO E-BOOK
+========================================================= -->
+<section class="produto" id="ebook">
+  <div class="container produto__inner">
+
+    <div class="produto__visual reveal">
+      <div class="book-mockup book-mockup--small">
+        <div class="book-mockup__glow" aria-hidden="true"></div>
+        <!-- CAPA DO E-BOOK (repetida nesta seção) -->
+        <img src="capa-ebook.jpg" alt="E-book Mente Milionária" class="book-mockup__img">
+      </div>
+    </div>
+
+    <div class="produto__text reveal">
+      <p class="section-eyebrow">O produto</p>
+      <h2 class="section-title section-title--left">Seu primeiro passo para uma vida financeira mais consciente.</h2>
+      <p class="produto__paragraph">
+        O Mente Milionária foi desenvolvido para quem quer começar a entender melhor
+        o próprio dinheiro, mas não sabe por onde começar.
+      </p>
+
+      <ul class="checklist">
+        <li>Linguagem simples</li>
+        <li>Conteúdo para iniciantes</li>
+        <li>Conceitos explicados de forma prática</li>
+        <li>Educação financeira do zero</li>
+        <li>Primeiros passos nos investimentos</li>
+        <li>Plano para colocar o conhecimento em prática</li>
+      </ul>
+
+      <a href="#" class="btn btn--primary js-checkout">Quero ter acesso</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- =========================================================
+     5. CONTEÚDO DO E-BOOK (CAPÍTULOS)
+========================================================= -->
+<section class="capitulos" id="conteudo">
+  <div class="container">
+    <p class="section-eyebrow section-eyebrow--center">Dentro do e-book</p>
+    <h2 class="section-title reveal">O que você vai encontrar dentro do e-book?</h2>
+
+    <div class="capitulos__grid">
+      <div class="capitulo-card reveal"><span class="capitulo-card__num">01</span><h3>Por que a maioria das pessoas nunca fica rica</h3></div>
+      <div class="capitulo-card reveal"><span class="capitulo-card__num">02</span><h3>Mindset: construindo uma mentalidade financeira</h3></div>
+      <div class="capitulo-card reveal"><span class="capitulo-card__num">03</span><h3>Como controlar seu dinheiro</h3></div>
+      <div class="capitulo-card reveal"><span class="capitulo-card__num">04</span><h3>Como economizar sem sofrimento</h3></div>
+      <div class="capitulo-card reveal"><span class="capitulo-card__num">05</span><h3>Reserva de emergência</h3></div>
+      <div class="capitulo-card reveal"><span class="capitulo-card__num">06</span><h3>Primeiros investimentos</h3></div>
+      <div class="capitulo-card reveal"><span class="capitulo-card__num">07</span><h3>Como ganhar mais dinheiro</h3></div>
+      <div class="capitulo-card reveal"><span class="capitulo-card__num">08</span><h3>Seu plano financeiro para os próximos 12 meses</h3></div>
+      <div class="capitulo-card capitulo-card--bonus reveal">
+        <span class="capitulo-card__num">Bônus</span>
+        <h3>Desafio financeiro de 30 dias</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     6. PARA QUEM É
+========================================================= -->
+<section class="para-quem">
+  <div class="container">
+    <h2 class="section-title reveal">Esse e-book é para você?</h2>
+
+    <div class="para-quem__grid">
+      <div class="para-quem__card reveal">Quem está começando do zero</div>
+      <div class="para-quem__card reveal">Quem quer aprender a economizar</div>
+      <div class="para-quem__card reveal">Quem quer começar a investir</div>
+      <div class="para-quem__card reveal">Quem quer organizar a vida financeira</div>
+      <div class="para-quem__card reveal">Quem quer desenvolver hábitos melhores</div>
+      <div class="para-quem__card reveal">Quem quer entender mais sobre dinheiro</div>
+    </div>
+
+    <p class="para-quem__closing reveal">
+      Não importa se você entende pouco sobre finanças. O conteúdo foi pensado
+      justamente para quem quer começar.
+    </p>
+  </div>
+</section>
+
+<!-- =========================================================
+     7. TRANSFORMAÇÃO (ANTES / DEPOIS)
+========================================================= -->
+<section class="transformacao">
+  <div class="container">
+    <h2 class="section-title reveal">Uma nova relação com o seu dinheiro</h2>
+
+    <div class="transformacao__grid">
+      <div class="transformacao__col reveal">
+        <h3 class="transformacao__label transformacao__label--antes">Antes</h3>
+        <ul class="transformacao__list">
+          <li>Dinheiro sem planejamento</li>
+          <li>Gastos desnecessários</li>
+          <li>Insegurança para investir</li>
+          <li>Falta de organização</li>
+          <li>Dúvidas sobre o futuro</li>
+        </ul>
+      </div>
+      <div class="transformacao__col transformacao__col--depois reveal">
+        <h3 class="transformacao__label transformacao__label--depois">Depois</h3>
+        <ul class="transformacao__list">
+          <li>Mais organização</li>
+          <li>Maior consciência financeira</li>
+          <li>Conhecimento sobre investimentos</li>
+          <li>Metas mais claras</li>
+          <li>Um plano financeiro</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- PROVA SOCIAL: placeholder preparado para depoimentos futuros -->
+    <div class="prova-social reveal">
+      <p class="prova-social__label">Espaço reservado para depoimentos</p>
+      <p class="prova-social__texto">Em breve, histórias reais de quem já está aplicando o conteúdo.</p>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     8. CTA FINAL
+========================================================= -->
+<section class="cta-final">
+  <div class="container cta-final__inner reveal">
+    <h2 class="cta-final__title">Seu dinheiro merece mais do que improviso.</h2>
+    <p class="cta-final__text">Comece hoje a construir uma relação mais inteligente com o seu dinheiro.</p>
+    <a href="#" class="btn btn--gold btn--large js-checkout">Quero começar agora</a>
+  </div>
+</section>
+
+<!-- =========================================================
+     9. FAQ
+========================================================= -->
+<section class="faq" id="faq">
+  <div class="container container--narrow">
+    <p class="section-eyebrow section-eyebrow--center">Dúvidas frequentes</p>
+    <h2 class="section-title reveal">Perguntas frequentes</h2>
+
+    <div class="accordion">
+      <div class="accordion__item reveal">
+        <button class="accordion__question">
+          O e-book é para iniciantes?
+          <span class="accordion__icon">+</span>
+        </button>
+        <div class="accordion__answer">
+          <p>Sim. O conteúdo foi pensado para pessoas que estão começando e querem entender educação financeira de forma simples.</p>
+        </div>
+      </div>
+
+      <div class="accordion__item reveal">
+        <button class="accordion__question">
+          Preciso entender de investimentos?
+          <span class="accordion__icon">+</span>
+        </button>
+        <div class="accordion__answer">
+          <p>Não. Os conceitos são apresentados desde o básico.</p>
+        </div>
+      </div>
+
+      <div class="accordion__item reveal">
+        <button class="accordion__question">
+          O e-book é digital?
+          <span class="accordion__icon">+</span>
+        </button>
+        <div class="accordion__answer">
+          <p>Sim. O produto é disponibilizado em formato digital.</p>
+        </div>
+      </div>
+
+      <div class="accordion__item reveal">
+        <button class="accordion__question">
+          Preciso ter muito dinheiro para começar?
+          <span class="accordion__icon">+</span>
+        </button>
+        <div class="accordion__answer">
+          <p>Não. O objetivo é ensinar princípios e hábitos financeiros que podem ser aplicados de acordo com a realidade de cada pessoa.</p>
+        </div>
+      </div>
+
+      <div class="accordion__item reveal">
+        <button class="accordion__question">
+          O e-book promete enriquecer?
+          <span class="accordion__icon">+</span>
+        </button>
+        <div class="accordion__answer">
+          <p>Não. A Mente Milionária não promete enriquecimento rápido. O objetivo é oferecer conhecimento e ferramentas para ajudar você a tomar decisões financeiras mais conscientes.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- =========================================================
+     RODAPÉ
+========================================================= -->
+<footer class="footer">
+  <div class="container footer__inner">
+
+    <div class="footer__brand">
+      <!-- LOGO no rodapé -->
+      <img src="logo.jpg" alt="Mente Milionária" class="footer__logo">
+      <span class="footer__brand-name">Mente Milionária</span>
+      <p class="footer__tagline">Educação financeira simples para quem quer começar.</p>
+    </div>
+
+    <div class="footer__links">
+      <h4>Navegação</h4>
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#ebook">E-book</a>
+      <a href="#conteudo">Conteúdo</a>
+      <a href="#faq">FAQ</a>
+    </div>
+
+    <div class="footer__social">
+      <h4>Redes sociais</h4>
+      <!-- INSTAGRAM: troque o href abaixo pelo link do seu perfil -->
+      <a href="https://instagram.com/MENTE_MILIONARIA_OFICIAL_RP" target="_blank" rel="noopener">Instagram</a>
+      <!-- TIKTOK: troque o href abaixo pelo link do seu perfil -->
+      <a href="https://tiktok.com/@SEU_USUARIO" target="_blank" rel="noopener">TikTok</a>
+      <!-- E-MAIL: troque pelo seu e-mail de contato -->
+      <a href="mailto:contato@mentemilionaria.com">E-mail</a>
+    </div>
+
+  </div>
+
+  <div class="footer__bottom">
+    <p>© 2026 Mente Milionária. Todos os direitos reservados.</p>
+    <p class="footer__disclaimer">Conteúdo educacional. Não constitui recomendação individual de investimento.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
